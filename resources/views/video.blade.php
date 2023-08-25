@@ -7,6 +7,8 @@
     
 </head>
 <body>
+<a href="/dashboard">DASHBOARD</a>
+<br>
 <h1>YouTube Video</h1>
 
 <video width="640" height="360" controls autoplay>

@@ -18,6 +18,20 @@ In addition you Spatie for authorization control based on roles/permissions. A G
 
 There are several possibilities to authenticate users, by default email + password. However we added two new possibilities:  Social Login ( laravel/socialite) and magiclink OTP (grosv/laravel-passwordless-login)
 
+### backpack/permissionmanager.
+
+Only access for Admin roles to  manage users, roles and permissions.
+
+App\Http\Middleware\CheckIfAdmin
+
+```php
+private function checkIfUserIsAdmin(User $user)
+    {
+       
+        return $user->hasRole('SysAdmin');
+    }
+
+```
 
 ### Packages
 

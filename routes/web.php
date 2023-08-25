@@ -15,13 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/video', function () {
     return view('video');
-});
-
-Route::get('/youtube/{id}',  [
-    'as' => 'youtube.player',
-    'uses' => 'App\Http\Controllers\YoutubeController@player'
-]);
-
+})->name('video');
 
 
 Route::get('/getVideo/{id}',  [

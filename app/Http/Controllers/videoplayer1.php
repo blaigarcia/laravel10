@@ -24,7 +24,7 @@ class videoplayer1 extends Controller
 
         $videoUrl = 'https://www.w3schools.com/tags/movie.mp4';
 
-        $videoUrl = 'https://drive.google.com/file/d/12i98EKsFwiBPUIcIcO9cEp49O2m878P5/view?usp=sharing';
+     //   $videoUrl = 'https://drive.google.com/file/d/12i98EKsFwiBPUIcIcO9cEp49O2m878P5/view?usp=sharing';
 
              
         $fileName = 'videos/'. basename($videoUrl);
